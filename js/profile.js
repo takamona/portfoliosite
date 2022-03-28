@@ -1,7 +1,7 @@
 /* global $*/
 
 // ファイルチューザーの表示
-$('up1').show();
+$('.up1').show();
 $('.upload').hide();
 $('.syoki').on('click', () => {
     // $('.up1').hide();
