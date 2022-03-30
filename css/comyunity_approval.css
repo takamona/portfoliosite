@@ -137,7 +137,13 @@ table.sinsei{
 }
  
 table.sinsei th{
-  border:1px solid #000066;
+  border:1px solid #000066;}
 
+.orange{
+background-color: orange;
+}
 
-
+.grey{
+  background-color: grey;  
+    
+}
