@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html lang="ja">
-<head>
+ <head>
   <meta charset="UTF-8">
   <title>イベント編集削除</title>
+  <link rel="stylesheet" href="./css/event_post.css"type="text/css" />
+  <link rel="stylesheet" href="https://school.oohara.jp/oohara/fullcalendar.css" type="text/css" />
 </head>
 <body>
   <!-- fullcalendar-3.10.0 -->
@@ -10,21 +12,19 @@
   <script src='https://fullcalendar.io/releases/fullcalendar/3.9.0/lib/moment.min.js'></script>
   <script src='https://fullcalendar.io/releases/fullcalendar/3.9.0/lib/jquery.min.js'></script>
   <script src="https://school.oohara.jp/oohara/fullcalendar.js"></script>
-  <link rel="stylesheet" href="./css/event_post.css"type="text/css" />
-  <link rel="stylesheet" href="https://school.oohara.jp/oohara/fullcalendar.css" type="text/css" />
   <nav>
   <ul class="nav">
     <li>
       <a href="#top">TOP</a>
-      <img class="top" src="https://school3.oohara.jp/taka/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3/earth-3537401_640.jpg">
+      <img class="top" src="images/top.jpg">
     </li>
     <li>
       <a href="#login">ログイン</a>
-      <img class="komyu" src="https://school3.oohara.jp/taka/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3/registration-3938434_640.jpg">
+      <img class="komyu" src="images/login.jpg">
     </li>
     <li>
       <a href="#mypage">マイページ</a>
-      <img class="myp" src="https://school3.oohara.jp/taka/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3/komyu.jpeg">
+      <img class="myp" src="images/komyu.jpeg">
     </li>
   </ul>
   </nav>
@@ -32,7 +32,7 @@
   <div class="osirase">
     <ul>
       <li>
-        <img class="pencil" src="https://school3.oohara.jp/taka/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3/pencil-37254_640.png">○○のイベント
+        <img class="pencil" src="images/pencil.png">○○のイベント
       </li>
     </ul>
   </div>
@@ -44,7 +44,7 @@
         <div class="pe">
           <input type="button" value="イベント投稿" class="modoru">
           <div>
-            <img class="pencil2" src="https://school3.oohara.jp/taka/%e3%82%b3%e3%83%9f%e3%83%a5%e3%83%8b%e3%83%86%e3%82%a3/pencil-37254_640.png">
+            <img class="pencil2" src="images/pencil.png">
           </div>
         </div>
         </th>
@@ -88,7 +88,7 @@
         </th>
         <th>
         <div id="upload">
-          <img id="img" src="https://school.oohara.jp/oohara/1/aaa.png">
+          <img id="img" src="images/profilesample.png">
           <div class="up1">画像を変更する</div>
           <div style="display:none">
             <input type="file" id="uploadFile2">
